@@ -197,7 +197,8 @@ hr{
 }
 /* Style for the footer menus */
 .footer-left{
-    text-align: center;
+    text-align: left;
+    padding-left: calc(30px + 2vw);
 }
 /* Style for the Privacy Statement */
 .footer-right{
@@ -214,6 +215,12 @@ hr{
 .responsive-iframe{
     width: 100%;
     margin: auto;
+}
+/* Style to make google spreadsheet iframe responsive*/
+.responsive-iframe-staff{
+    width: 100%;
+    margin: auto;
+    height: 500px;
 }
 .navbar-dark .navbar-nav .nav-link{
     color: white;
