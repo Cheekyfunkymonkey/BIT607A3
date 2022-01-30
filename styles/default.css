@@ -216,6 +216,12 @@ hr{
     width: 100%;
     margin: auto;
 }
+/* Style to make the iframe video responsive*/
+.responsive-iframe-video{
+    width: 100%;
+    margin: auto;
+    height: calc(150px + 20vw);
+}
 /* Style to make google spreadsheet iframe responsive*/
 .responsive-iframe-staff{
     width: 100%;
